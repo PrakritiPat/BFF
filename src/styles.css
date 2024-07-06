@@ -1,0 +1,407 @@
+:root{ 
+  --sage: #86ae73;
+  --darksage: #4e6c3e;
+  --white:#FFF;
+  --navyblue: #1a2954;
+  --blue:#4169e1;
+  --lightblue: #c6d8ff; 
+  --shadow-dark: rgba(0,0,0,0.3);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+font-family:URW Chancery L, cursive;
+font-size: 16px;
+width: 100%;
+height: 400vh;
+background-color: var(--sage);
+
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 2px solid var(--navyblue);
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 5px solid var(--darksage);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.pictures{
+  position: relative; 
+  z-index : 20;
+}
+.container {
+  /*position: absolute; */
+  height: 75%;
+  width: 1420px;
+  background-color: var(--blue);
+  border-radius: 20px;
+  overflow: scroll;
+
+}
+.container2 {
+  height: 75%;
+  width: 1420px;
+  background-color: var(--navyblue);
+  border-radius: 20px;
+  overflow: scroll;
+
+}
+.container3 {
+  height: 75%;
+  width: 1420px;
+  background-color: var(--navyblue);
+  border-radius: 20px;
+  overflow: auto;
+
+}
+
+.song1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 80vh;
+  border-radius: 20px;
+}
+.song2 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 80vh;
+  border-radius: 20px;
+}
+.song3 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 80vh;
+  border-radius: 20px;
+
+}
+.song4 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 80vh;
+  border-radius: 20px;
+
+}
+.song5 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 80vh;
+  border-radius: 20px;
+
+}
+
+.song6 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 80vh;
+  border-radius: 20px;
+
+}
+
+.desc1 {
+float: right;
+height : 75vh;
+width: 100%;
+padding : 5px;
+background-color: var(--lightblue);
+border-radius: 20px;
+margin: top;
+
+}
+
+.desc2 {
+  float: right;
+  height : 75vh;
+  width: 100%;
+  padding : 5px;
+  background-color: var(--lightblue);
+  border-radius: 20px;
+  margin: top;
+  
+  }
+
+.desc3 {
+  float: right;
+  height : 75vh;
+  width: 100%;
+  padding : 5px;
+  background-color: var(--lightblue);
+  border-radius: 20px;
+  margin: top;
+  
+  }
+  .desc4 {
+    float: right;
+    height : 75vh;
+    width: 100%;
+    padding : 5px;
+    background-color: var(--lightblue);
+    border-radius: 20px;
+    margin: top;
+    
+    }
+
+  .desc5 {
+    float: right;
+    height : 75vh;
+    width: 100%;
+    padding : 5px;
+    background-color: var(--lightblue);
+    border-radius: 20px;
+    margin: top;
+    }
+
+  .desc6 {
+    float: right;
+    height : 75vh;
+    width: 100%;
+    padding : 5px;
+    background-color: var(--lightblue);
+    border-radius: 20px;
+    margin: top;
+      
+   }
+
+
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%; 
+  padding: 10px;
+  height: 300px;  /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: right;
+  width: 50%; 
+  padding: 10px;
+  height: 500px;  /* Should be removed. Only for demonstration */
+}
+.column3 {
+  float: left;
+  width: 50%; 
+  padding: 10px;
+  height: 300px;  /* Should be removed. Only for demonstration */
+}
+.column4 {
+  float: right;
+  width: 50%; 
+  padding: 10px;
+  height: 500px;  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 190px;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 190px;
+}
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 190px;
+} 
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 190px;
+} 
+
+
+
+/* second container */
+
+.carpic {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  height: 80vh;
+  border-radius: 20px;
+}
+.sillyprak{
+  float: left;
+  width: 25%;
+  padding: 20px;
+  height: 80vh;
+  border-radius: 20px;
+}
+.desc22 {
+  float: right;
+  height : 75vh;
+  width: 100%;
+  padding : 5px;
+  background-color: var(--sage);
+  border-radius: 20px;
+  margin: top;
+ }
+ .desc33 {
+  float: right;
+  height : 75vh;
+  width: 100%;
+  padding : 5px;
+  background-color: var(--sage);
+  border-radius: 20px;
+  margin: top;
+ }
+
+ .desc44 {
+  float: right;
+  height : 75vh;
+  width: 100%;
+  padding : 5px;
+  background-color: var(--sage);
+  border-radius: 20px;
+  margin: top;
+ }
+ .desc77 {
+  float: right;
+  height : 75vh;
+  width: 100%;
+  padding : 5px;
+  background-color: var(--sage);
+  border-radius: 20px;
+  margin: top;
+ }
+
+ .desc88 {
+  float: right;
+  height : 75vh;
+  width: 100%;
+  padding : 5px;
+  background-color: var(--sage);
+  border-radius: 20px;
+  margin: top;
+ }
+
+.column11 {
+  float: left;
+  width: 50%; 
+  padding: 10px;
+  height: 300px;  
+}
+.column22 {
+  float:  left;
+  width: 50%; 
+  padding: 10px;
+  height: 300px;  
+  font-size: 20.6px;
+}
+.column44 {
+  float:  left;
+  width: 50%; 
+  padding: 10px;
+  height: 300px;  
+  font-size: 20.6px;
+}
+.column55 {
+  float:  left;
+  width: 50%; 
+  padding: 10px;
+  height: 300px;  
+  font-size: 20.6px;
+}
+.column66 {
+  float:  left;
+  width: 50%; 
+  padding: 10px;
+  height: 300px;  
+  font-size: 20.6px;
+}
+.column18 {
+  float:  left;
+  width: 50%; 
+  padding: 10px;
+  height: 300px;  
+  font-size: 20.6px;
+}
+.column19 {
+  float:  left;
+  width: 50%; 
+  padding: 10px;
+  height: 300px;  
+  font-size: 20.6px;
+}
+.row11:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 190px;
+}
+.row33:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 190px;
+}
+.row66:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 190px;
+}
+.row44:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 190px;
+}
+
+.row67:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 190px;
+}
+
+
+
+div.gallery1 {
+  margin: 5px;
+  border: 2px solid var(--navyblue);
+  float: left;
+  width: 180px;
+}
+
+div.gallery1:hover {
+  border: 5px solid var(--darksage);
+}
+
+div.gallery1 img {
+  width: 100%;
+  height: auto;
+}
